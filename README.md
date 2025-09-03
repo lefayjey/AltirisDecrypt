@@ -2,13 +2,6 @@
 
 A C# utility for offline decrypting Altiris/Symantec Account Connectivity Credentials (ACCs) from base64-encrypted blobs, as found in enterprise environments. The tool extracts the IV and ciphertext from the Altiris data format and uses an AES key to reveal the original plaintext.
 
-## Features
-
-- Validates input arguments and prints usage instructions on errors
-- Handles exceptions gracefully, offering clear troubleshooting hints
-- Accepts base64-encoded input and key for straightforward command-line use
-
-
 ## Usage
 
 ```
@@ -16,7 +9,7 @@ AltirisDecrypt <Base64InputData> <Base64Key>
 ```
 
 - `<Base64InputData>`: The base64 string containing the encrypted data blob, typically as found in Altiris/Symantec environments.
-- `<Base64Key>`: The base64 string representing the decryption key  present in the Notification Server's key file.
+- `<Base64Key>`: The base64 string representing the decryption key present in the Notification Server's key file.
 
 Example:
 
