@@ -51,7 +51,12 @@ namespace AltirisDecrypt
                     using (StreamReader srDecrypt = new StreamReader(csDecrypt))
                     {
                         string plaintext = srDecrypt.ReadToEnd();
-                        Console.WriteLine("Decrypted data: " + plaintext);
+                        StringBuilder sb = new StringBuilder();
+                        for (int i = 0; i < plaintext.Length; i += 2)
+                        {
+                            sb.Append(plaintext[i]);
+                        }
+                        Console.WriteLine("Decrypted data: " + sb.ToString());
                     }
                 }
             }

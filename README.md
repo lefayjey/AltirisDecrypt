@@ -14,7 +14,7 @@ AltirisDecrypt <Base64InputData> <Base64Key>
 Example:
 
 ```
-AltirisDecrypt "SGVsbG8gV29ybGQh..." "MDEyMzQ1Njc4OUFCQw=="
+AltirisDecrypt "AwBcxiEuzG5L1KCP8VnpwJKd/FkxTo1w/G6zKuW7/2CSWcDeB0kxhT20I1x0kQ0+zfKpqNKDZ7YoYD3wKBScPkCiUYBB6HmV2h+Y2Yq5GRnPtLt4I9SfqPnyjzB51p+nITG31FbtxFR38BG2+T0gWbIfrnkZjyQLzTC8trZgjFQqddd85q1eLO4pCj++9Qpr3ZjOxkvaQlQknFbrWXiYGdVY" "+us3+eX22qtRmFThHxiXKSFY1kxDFx0esu+ly5y3NrA="
 ```
 
 ## Context
