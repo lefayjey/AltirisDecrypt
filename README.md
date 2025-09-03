@@ -19,18 +19,13 @@ AltirisDecrypt "SGVsbG8gV29ybGQh..." "MDEyMzQ1Njc4OUFCQw=="
 
 ## Context
 
-This tool is modeled after the process described in [Checking for Symantec Account Connectivity Credentials (ACCs) - PrivEscCheck](https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/) by itm4n, which details methods for identifying and decrypting Symantec credentials during security assessments. The article demonstrates the exploitation potential of mismanaged or exposed account credentials.[^1]
+This tool is modeled after the process described in [Checking for Symantec Account Connectivity Credentials (ACCs) - PrivEscCheck](https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/) by itm4n, which details methods for identifying and decrypting Symantec credentials during security assessments. The article demonstrates the exploitation potential of mismanaged or exposed account credentials. [^1][^2]
 
 ## License
 
 This script is released for educational and research purposes only.
 
 ***
-
-Refer to the linked article above for further technical background on the context and relevant attack scenarios.[^1]
-<span style="display:none">[^2]</span>
-
-<div style="text-align: center">⁂</div>
 
 [^1]: https://itm4n.github.io/checking-symantec-account-credentials-privesccheck/
 
